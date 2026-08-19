@@ -1,4 +1,3 @@
-#include <unordered_set>
 #include <iostream> 
 #include <vector> 
 
@@ -7,15 +6,11 @@ using namespace std;
 class Solution { 
 public:
 	int singleNumber(vector<int>& nums) { 
-		std::unordered_set<int> seen; 
+		int pivot = 0; 
 
-		for (int x : nums) {
-			if (seen.contains(x)) { 
-				seen.erase(x);
-			} else { 
-				seen.insert(x);
-			}
+		for (int x : nums) { 
+			pivot = x ^ pivot;
 		}
-		return *seen.begin(); 
+		return pivot;
 	}
 };
