@@ -1,0 +1,10 @@
+# compiled binaries
+basics/hello
+basics/input
+basics/temp
+basics/grade
+basics/guess
+leetcode/*_single_number
+leetcode/01_two_sum
+*.o
+a.out
