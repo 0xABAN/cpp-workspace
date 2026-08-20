@@ -8,3 +8,6 @@ leetcode/*_single_number
 leetcode/01_two_sum
 *.o
 a.out
+
+# cmake build trees
+**/build/
