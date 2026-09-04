@@ -138,8 +138,8 @@ Fits NVIDIA computer-vision and robotics roles; builds on Amazon robotics backgr
 
 Parallel track while building projects:
 
-- `basics/` — language drills
+- `cpp/basics/` — language drills
 - `leetcode/` — C++ problem practice
 - nvim setup (lazy, treesitter, fzf-lua, blink.cmp)
 
-**Next project step when ready:** scaffold Project 1 under something like `projects/imgproc/`.
+**Next project step when ready:** scaffold Project 1 under something like `cpp/projects/imgproc/`.
